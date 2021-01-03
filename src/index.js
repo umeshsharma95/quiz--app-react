@@ -41,7 +41,7 @@ class Quizbee extends Component {
     render() {
         return (
             <div className="container">
-                <div className="title">Quizbee</div>
+                <div className="title">Quizbox</div>
                 {this.state.questionBank.length > 0 &&
                 this.state.responses <5 && 
                 this.state.questionBank.map(
